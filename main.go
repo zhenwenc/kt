@@ -31,6 +31,7 @@ type listConfig struct {
 	brokers []string
 	args    struct {
 		brokers string
+		detail  bool
 	}
 }
 
